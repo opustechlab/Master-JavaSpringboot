@@ -1,0 +1,13 @@
+<configuration>
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+    <appender name="CLOUD" class="com.google.cloud.logging.logback.LoggingAppender">
+        <log>INFO</log>  <!-- Atur level log -->
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="CLOUD"/>
+    </root>
+</configuration>
