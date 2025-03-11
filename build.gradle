@@ -40,14 +40,15 @@ dependencies {
 	// Protobuf (versi yang kompatibel)
 	implementation 'com.google.protobuf:protobuf-java:3.25.3'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-	implementation 'com.fasterxml.jackson.core:jackson-databind'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.16.1'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.4.0'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
 	implementation 'org.springframework.boot:spring-boot-starter-amqp'
-
-
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'com.squareup.okhttp3:okhttp:4.12.0'
 }
 
 tasks.named('test') {
