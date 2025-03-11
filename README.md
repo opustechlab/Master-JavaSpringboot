@@ -8,5 +8,8 @@ Fitur:
 6. Connect to Redis
 7. Unit Test Class
 8. Connect Send WA Unofficial
+9. SOLID AND TDD Principles
 
-inside this project actually only for master project development
+Inside this project actually only for master project development
+
+
