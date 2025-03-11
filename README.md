@@ -10,6 +10,6 @@ Fitur:
 8. Connect Send WA Unofficial
 9. SOLID AND TDD Principles
 
-Inside this project actually only for master project development
+Inside this project actually only sample for mastering project development
 
 
